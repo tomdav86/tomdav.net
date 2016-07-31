@@ -6,5 +6,8 @@
   "dependencies": {
     "bootstrap": "^3.3.6",
     "jquery": "^3.1.0"
+  },
+  "scripts": {
+    "deploy": "ssh root@tomdav.net 'cd /var/www/tomdav.net && git pull origin master'"
   }
 }
