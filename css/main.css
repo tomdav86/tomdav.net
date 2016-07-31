@@ -1,0 +1,266 @@
+/*
+STOCK COLOURS:
+  Light Blue: 218,235,246
+  Low Blue: 132,176,225
+  Medium Blue: 85,127,204
+  High Blue: 79,110,185
+  Dark: 23,36,96
+  Off-White: 230,230,230
+  Off-Black: 40,40,40
+*/
+
+body{
+  margin: 0;
+}
+
+#nav{
+  margin: 0;
+  width: 100%;
+  height: 50px;
+  font-family: 'Terminal Dosis', sans-serif;
+  font-weight: 200;
+  color: rgba(40,40,40,1);
+  text-align: center;
+  position: fixed;
+  background-color: rgba(230,230,230,1);
+  z-index: 100;
+}
+
+ul{
+  list-style-type: none;
+  display: inline-block;
+  padding-right: 50px;
+  margin-top: 15px !important;
+  font-size: 16px !important;
+}
+
+li{
+  display: inline-block;
+  transition: 0.5s;
+  border-right: 2px dotted transparent;
+  padding: 0px 20px 0px 20px;
+}
+
+li:hover{
+  margin-top: 0;
+  border-right: 2px dotted rgba(40,40,40,1);
+  padding-bottom: 30px;
+  cursor: pointer;
+  text-decoration: none !important;
+  color: rgba(40,40,40,1) !important;
+}
+
+li a{
+  text-decoration: none !important;
+  color: rgba(40,40,40,1) !important;
+}
+
+h1{
+  margin: auto;
+  margin-top: 38% !important;
+  position: static;
+  font-family: 'Terminal Dosis', sans-serif !important;
+  font-weight: 200 !important;
+  font-size: 20px !important;
+  text-align: justify;
+  justify-content: justify;
+  line-height: 1.2;
+  text-shadow: 0px 3px 3px rgba(40,40,40,1);
+  color: rgba(230,230,230,1);
+  width: 30%;
+  display: inline-block;
+  vertical-align: center;
+  clear: right;
+  background-color: rgba(85,127,204,1);
+  background-image: url('../static/images/noiseblue.png');
+  border-radius: 25px;
+  padding: 25px 25px 25px 25px;
+}
+
+#main{
+  margin: 0;
+  top: 50px;
+  width: 100%;
+  text-align: center;
+  color: rgba(230,230,230,1);
+  background-color: rgba(221,231,255,1);
+  background-image: url('../static/images/yosemite.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  overflow-y: none;
+  z-index: 2;
+  float:left;
+}
+
+#mainleft{
+  top: 50px;
+  left: -500px;
+  width: 100%;
+  text-align: center;
+  font-family: helvetica;
+  font-weight: 200;
+  font-size: 20px;
+  color: rgba(230,230,230,1);
+  background-color: rgba(221,231,255,1);
+  background-image: url('../static/images/yosemite.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  box-shadow: 0px 5px 25px rgba(40,40,40,1);
+  overflow-y: none;
+  z-index: 2;
+  float:left;
+}
+
+#publications{
+  margin-top: 50px;
+  margin-left: 33%;
+  width: 67%;
+  text-align: center;
+  color: rgba(230,230,230,1);
+  background-color: rgba(85,127,204,1);
+  background-image: url('../static/images/noiseblue.png');
+  background-repeat: repeat;
+  box-shadow: 0px 5px 25px rgba(40,40,40,1);
+  border-left: 2px dotted rgba(230,230,230,1);
+  overflow-y: scroll;
+  position: relative;
+  z-index: 50;
+  float: left;
+}
+
+#blog{
+  margin-top: 50px;
+  margin-left: 33%;
+  width: 67%;
+  text-align: center;
+  color: rgba(230,230,230,1);
+  background-color: rgba(85,127,204,1);
+  background-image: url('../static/images/noiseblue.png');
+  box-shadow: 0px 5px 25px rgba(40,40,40,1);
+  border-left: 2px dotted rgba(230,230,230,1);
+  overflow-y: scroll;
+  position: relative;
+  z-index: 50;
+  float: left;
+}
+
+#gallery{
+  margin-top: 50px;
+  margin-left: 33%;
+  width: 67%;
+  text-align: center;
+  color: rgba(230,230,230,1);
+  background-color: rgba(132,176,225,1);
+  background-image: url('../static/images/noiseblue.png');
+  box-shadow: 0px 5px 25px rgba(40,40,40,1);
+  border-left: 2px dotted rgba(230,230,230,1);
+  overflow-y: scroll;
+  position: relative;
+  z-index: 50;
+  float: left;
+}
+
+#contact{
+  margin-top: 50px;
+  margin-bottom: -50px;
+  margin-left: 33%;
+  width: 67%;
+  text-align: center;
+  color: rgba(230,230,230,1);
+  background-color: rgba(132,176,225,1);
+  background-image: url('../static/images/noiseblue.png');
+  box-shadow: 0px 5px 25px rgba(40,40,40,1);
+  border-left: 2px dotted rgba(230,230,230,1);
+  overflow-y: hidden;
+  position: relative;
+  z-index: 50;
+  float: left;
+}
+
+#contact img{
+  height: 180px;
+  width: 180px;
+  margin-left: 50px;
+  margin-top: 50px;
+  border-radius: 50%;
+  border-style: dotted;
+  border-width: 3px;
+  box-shadow: 0px 3px 20px rgba(40,40,40,1);
+  -webkit-filter: saturate(65%);
+  filter: saturate(65%);
+  float: left;
+}
+
+#contact h3{
+  margin-left: 300px;
+  margin-top: 75px;
+  text-align: left;
+  color: rgba(23,36,96,1);
+  font-size: 22px;
+  font-family: 'Terminal Dosis', sans-serif;
+  font-weight: 500;
+}
+
+#contact p{
+  margin-left: 300px;
+  text-align: left;
+  color: rgba(218,235,246,1);
+  font-family: 'Terminal Dosis', sans-serif;
+  font-weight: 100;
+}
+
+.publications h3, .blog h3, .gallery h3{
+  margin-left: 20px;
+  margin-top: 20px;
+  text-align: left;
+  color: rgba(23,36,96,1);
+  font-size: 22px;
+  font-family: 'Terminal Dosis', sans-serif;
+  font-weight: 500;
+  /*text-shadow: 0px 1px 1px rgba(40,40,40,1);*/
+}
+
+.publications u{
+  color: rgba(23,26,96,1);
+}
+
+.publications p, .contact p{
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: left;
+  font-family: 'Terminal Dosis', sans-serif;
+  font-weight: 100;
+  color: rgba(218,235,246,1);
+}
+
+.publications hr{
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(230,230,230,1);
+  border-style: dotted;
+}
+
+.publications a{
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn.btn-info{
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 50px;
+  border-color: rgba(40,40,40,1);
+  background-color: rgba(79,110,185,1);
+  margin-right: 20px;
+}
+
+.btn.btn-info:hover{
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 50px;
+  border-color: rgba(40,40,40,1);
+  background-color: rgba(23,36,85,1);
+}
