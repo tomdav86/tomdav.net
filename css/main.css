@@ -79,6 +79,7 @@ h1{
 
 #main{
   margin: 0;
+  margin-bottom: -50px;
   top: 50px;
   width: 100%;
   text-align: center;
@@ -88,7 +89,7 @@ h1{
   background-repeat: no-repeat;
   background-size: cover;
   position: fixed;
-  overflow-y: none;
+  overflow-y: scroll;
   z-index: 2;
   float:left;
 }
@@ -115,6 +116,7 @@ h1{
 
 #publications{
   margin-top: 50px;
+  margin-bottom: -50px;
   margin-left: 33%;
   width: 67%;
   text-align: center;
@@ -132,6 +134,7 @@ h1{
 
 #blog{
   margin-top: 50px;
+  margin-bottom: -50px;
   margin-left: 33%;
   width: 67%;
   text-align: center;
@@ -149,6 +152,7 @@ h1{
 
 #gallery{
   margin-top: 50px;
+  margin-bottom: -50px;
   margin-left: 33%;
   width: 67%;
   text-align: center;
@@ -177,7 +181,7 @@ h1{
   background-repeat: repeat;
   box-shadow: 0px 5px 25px rgba(40,40,40,1);
   border-left: 2px dotted rgba(230,230,230,1);
-  overflow-y: hidden;
+  overflow-y: scroll;
   position: relative;
   z-index: 50;
   float: left;
